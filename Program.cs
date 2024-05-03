@@ -7,12 +7,15 @@ namespace AmstrongNumber // Define your main application namespace
     {
         static void Main(string[] args)
         {
-            AmstrongNumber.GenerateAmstrong(1, 1000);
+            //AmstrongNumber.GenerateAmstrong(1, 1000);
 
-            int testnumber = 153;
-            AmstrongNumber.isAmstrong(testnumber);
+            //int testnumber = 153;
+            //AmstrongNumber.isAmstrong(testnumber);
 
-            Console.WriteLine($"{testnumber} is an amstrong number");
+            //Console.WriteLine($"{testnumber} is an amstrong number");
+
+            ReverseNumber.GenerateNumber(10, 20);
+
         }
     }
 }
