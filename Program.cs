@@ -14,8 +14,9 @@ namespace AmstrongNumber // Define your main application namespace
 
             //Console.WriteLine($"{testnumber} is an amstrong number");
 
-            ReverseNumber.GenerateNumber(10, 20);
+            //ReverseNumber.GenerateNumber(10, 20);
 
+            PallindromeNumber.generatePalindrome(100, 200);
         }
     }
 }
