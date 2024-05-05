@@ -16,7 +16,8 @@ namespace AmstrongNumber // Define your main application namespace
 
             //ReverseNumber.GenerateNumber(10, 20);
 
-            PallindromeNumber.generatePalindrome(100, 200);
+            //PallindromeNumber.generatePalindrome(100, 200);
+            RecursionName.PrintName("Tahir", 10);
         }
     }
 }
