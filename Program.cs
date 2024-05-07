@@ -17,7 +17,18 @@ namespace AmstrongNumber // Define your main application namespace
             //ReverseNumber.GenerateNumber(10, 20);
 
             //PallindromeNumber.generatePalindrome(100, 200);
-            RecursionName.PrintName("Tahir", 10);
+            //RecursionName.PrintName("Tahir", 10);
+            //int value = FactorialWithRecursion.Factorial(10);
+            //Console.WriteLine(value);
+
+            //int value = FactorialWithLoop.Factorial(10);
+            //Console.WriteLine(value);
+
+            //int value = FibonacciSequenceWithLoop.FebonacciWithLoop(4);
+            //Console.WriteLine(value);
+
+            int value = FibonacciWithRecursion.Fibonacci(4);
+            Console.WriteLine(value);
         }
     }
 }
