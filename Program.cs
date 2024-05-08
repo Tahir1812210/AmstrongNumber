@@ -27,8 +27,12 @@ namespace AmstrongNumber // Define your main application namespace
             //int value = FibonacciSequenceWithLoop.FebonacciWithLoop(4);
             //Console.WriteLine(value);
 
-            int value = FibonacciWithRecursion.Fibonacci(4);
+            //int value = FibonacciWithRecursion.Fibonacci(4);
+            //Console.WriteLine(value);
+            int number = 134;
+            int value = GetTheOddPosition.GetOddPositionDigit(number);
             Console.WriteLine(value);
+            Console.ReadLine();
         }
     }
 }
