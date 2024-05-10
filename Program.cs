@@ -27,8 +27,10 @@ namespace AmstrongNumber // Define your main application namespace
             //int value = FibonacciSequenceWithLoop.FebonacciWithLoop(4);
             //Console.WriteLine(value);
 
-            int value = FibonacciWithRecursion.Fibonacci(4);
-            Console.WriteLine(value);
+            //int value = FibonacciWithRecursion.Fibonacci(4);
+            //Console.WriteLine(value);
+
+            BestRoute.FindBestRoute();
         }
     }
 }
